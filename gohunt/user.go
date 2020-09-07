@@ -29,6 +29,7 @@ type User struct {
 	MakerOfCount     int64             `json:"maker_of_count"`
 	PostsCount       int64             `json:"posts_count"`
 	VotesCount       int64             `json:"votes_count"`
+	TwitterUsername  string            `json:"twitter_username"`
 }
 
 func (u User) Summary() string {
